@@ -1,103 +1,98 @@
 /*Regla 1: Utilizar el selector universal * para cambiar el tipo de fuente del documento */
 *{
-    font-family: "Open Sans";   
+    font-family: "Open Sans";/*letra para todo el texto*/
 
 }
 
 /*Regla 2. El elemento body tendrá margen 0 y relleno de 20% únicamente a la derecha y izquierda*/
 body {
-    margin: 0;
-    padding: 0 20%;
+    margin: 0;/*margen del body*/
+    padding: 0 20%; /*espacio*/
 }
 
 /*Regla 3. Los elementos h1 estarán subrayados (text-decoration: underline;), de color darkcyan y alineados al centro/ Pongo un id, para que solo le afecte al h1, si tuviera que afectar a mas de un H1 utilizaria un class.*/
 #h1selectors{
     text-decoration: underline;
-    color: darkcyan;
-    text-align: center; 
+    color: darkcyan;/*color letra*/
+    text-align: center; /*espacio*/
 }   
 
 /*Regla 4. Los elementos con clase selector tendrán color lightcyan*/
 .selector{
-    color: lightcyan;
+    color: lightcyan; /*color letra*/
 }
 
 /* Regla 5. Los elementos con clase selectors tendrán un relleno de 5%, un border: solid darkcyan 1px; y esquinas redondeadas border-radius con valor de 5px */
 .selectors {
-    padding: 5%;
-    border: 1px solid darkcyan;
-    border-radius: 5px;
+    padding: 5%;/*espacio*/
+    border: 1px solid darkcyan; /*borde + color*/
+    border-radius: 5px; /*bordes redondeados*/ 
 }
 
 /*Regla 6. Los elementos con identificador (id) universal tendrán color lightgoldenrodyellow*/
 #universal{
-  color: lightgoldenrodyellow;
+  color: lightgoldenrodyellow; /*color letra*/
 }
 
 /*Regla 7. Los elementos h2 con clase selector y los elementos h2 con identificador (id) universal tendrán color de fondo darkcyan, relleno de 1% y esquinas redondeadas con valor de 5px*/
 .selector,#universal {
-    background-color: darkcyan;
-    padding: 1%;
-    border-radius: 5px;
+    background-color: darkcyan; /*color fondo*/
+    padding: 1%; /*espacio*/
+    border-radius: 5px; /*bordes redondeados*/
 }
 
 /*Regla 8. Los elementos span tendrán font-weight: 900; color de fondo negro y color de texto blanco*/
 span {
-    font-weight: 900;
-    background-color: black;
-    color: white;
+    font-weight: 900; /*tamaño*/ 
+    background-color: black;/*color fondo*/
+    color: white; /*color letra*/
 }
 
 /*Regla 9. Los elementos a que sean hijos directos de algún li tendrán text-decoration: none*/
 li > a {
-    text-decoration: none;
+    text-decoration: none; /*elimina decoracion*/
 }
 
 /*Regla 10. Los elementos h3 tendrán color de fondo background-color: rgba(0, 139, 139, 0.529);, relleno de 0.5px y esquinas redondeadas con valor de 5px*/
 h3{
-     background-color: rgba(0, 139, 139, 0.529);
-     padding: 0.5px;
-     border-radius: 5px;
+     background-color: rgba(0, 139, 139, 0.529); /*color fondo*/
+     padding: 0.5px;/*espacio*/
+     border-radius: 5px;/*Bordes redondeados*/
 }
 
 /*Regla 11. Los elementos div que sean descendientes de un elemento con id "gallery" tendrán un ancho width de 100%*/
 #gallery{
-    width: 100%;
+    width: 100%; /*anchura*/
 }
 
 
 /* Regla 12. Los elementos img tendrán un ancho width de 100%, un border: solid darkcyan 1px; y esquinas redondeadas con valor de 5px */
 img{
-    width: 100%;
-    border: 1px solid darkcyan;
-    border-radius: 5px;
+    width: 100%; /*anchura*/
+    border: 1px solid darkcyan; /*borde + color*/
+    padding: 2px;/*espacio*/
+    border-radius: 6px; /* Bordes redondeados */
 }
-
-/* TABLA BONUS */
+/*BONUS tabla*/
 .tabla_bonus {
-    width: 100%;
+    width: 100%;/*anchura*/
     border: 2px solid darkcyan; /* borde color darkcyan */
     border-radius: 6px; /* Bordes redondeados */
-    font-size: 16px;
-    background-color: white;
+    font-size: 16px;/*tamaño letra*/
+    background-color: white;/*color fondo*/
     margin-bottom: 20px; /*margen debajo de la tabla*/
 }
 .tabla_bonus th {
-    background-color: #ffffff;
-    padding: 12px;
-    border-bottom: 2px solid #d0d3d6;
+    background-color: #ffffff;/*color fondo*/
+    padding: 12px;/*espacio*/
+    border-bottom: 2px solid #d0d3d6;/*borde*/
 }
 
 .tabla_bonus td {
-    padding: 12px;
-    border-bottom: 2px solid #d0d3d6;
+    padding: 12px;/*espacio*/
+    border-bottom: 2px solid #d0d3d6; /*borde*/
 }
 
 .color_gris_filas{
-    background-color: rgba(160, 160, 160, 0.83);
+    background-color: rgba(160, 160, 160, 0.83); /*color gris filas*/ 
 }
-
-
-
-
-
