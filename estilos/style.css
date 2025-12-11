@@ -67,39 +67,41 @@ h3{
 
 
 /* Regla 12. Los elementos img tendrán un ancho width de 100%, un border: solid darkcyan 1px; y esquinas redondeadas con valor de 5px */
-img {
+img{
     width: 100%;
     border: 1px solid darkcyan;
     border-radius: 5px;
 }
 
 /* TABLA BONUS */
-.selector-table {
+.tabla_bonus {
     width: 100%;
     border-collapse: collapse;
-    border: 2px solid #7ab3c9;   /* Contorno azul claro */
+    border: 2px solid darkcyan;   /* borde color darkcyan */
     border-radius: 6px;          /* Bordes redondeados */
     overflow: hidden;            /* La tabla mantiene las esquinas redondeadas */
     font-size: 16px;
     background-color: white;
 }
-.selector-table th {
+.tabla_bonus th {
     background-color: #ffffff;
     font-weight: 900;
     padding: 12px;
     border-bottom: 2px solid #d0d3d6;
 }
 
-.selector-table td {
+.tabla_bonus td {
     padding: 12px;
     border-bottom: 1px solid #d0d3d6;
 }
 
-.selector-table .gray {
-    background-color: #e6eaed;
+
+
+.color_gris_filas{
+    background-color: rgba(160, 160, 160, 0.83)  ;
 }
 
-.selector-table a {
+.tabla_bonus a {
     color: black;
     font-weight: bold;
     text-decoration: underline;

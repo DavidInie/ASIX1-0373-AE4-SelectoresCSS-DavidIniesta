@@ -63,12 +63,12 @@
     <div id="gallery">
         <div>
             <h3>CSS Syntax</h3>
-            <img src="./img/regla_css.jpg" alt="">
+            <img src="./img/regla_css.jpg">
         </div>
         <div>
             <h3>All CSS Simple Selectors</h3>
         <!-- REGLA BONUS: Crear la tabla inferior con <table> en lugar de insertarla como imagen -->
-        <table class="selector-table">
+        <table class="tabla_bonus">
 
         <!-- titulos de la tabla -->
         <thead>
@@ -79,50 +79,41 @@
             </tr>
         </thead>
 
-         <!-- Filas -->
+         <!-- Filas y columnas-->
         <tbody>
-        <tr>
-            <td>#id</td>
-            <td>#firstname</td>
-            <td>Selects the element with id="firstname"</td>
-        </tr>
-        <tr class="gray">
-            <td>.class</td>
-            <td>.intro</td>
-            <td>Selects all elements with class="intro"</td>
-        </tr>
-        <tr>
-            <td>element.class</td>
-            <td>p.intro</td>
-            <td>Selects only &lt;p&gt; elements with class="intro"</td>
-        </tr>
+            <tr class="color_gris_filas">
+                <td>#id</td>
+                <td>#firstname</td>
+                <td>Selects the element with id="firstname"</td>
+            </tr>
+            <tr>
+                <td>.class</td>
+                <td>.intro</td>
+                <td>Selects all elements with class="intro"</td>
+            </tr>
+            <tr class="color_gris_filas">
+                <td>element.class</td>
+                <td>p.intro</td>
+                <td>Selects only &lt;p&gt; elements with class="intro"</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td>*</td>
+                <td>Selects all elements</td>
+            </tr>
+            <tr class="color_gris_filas">
+                <td>element</td>
+                <td>p</td>
+                <td>Selects all &lt;p&gt; elements</td>
+            </tr>
+            <tr>
+                <td>element,element,...</td>
+                <td>div, p</td>
+                <td>Selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
+            </tr>
 
-        <!-- REGLA BONUS: Fila gris -->
-        <tr class="gray">
-            <td>*</td>
-            <td>*</td>
-            <td>Selects all elements</td>
-        </tr>
-
-        <!-- REGLA BONUS: Fila blanca -->
-        <tr>
-            <td><a href="#">element</a></td>
-            <td>p</td>
-            <td>Selects all &lt;p&gt; elements</td>
-        </tr>
-
-        <!-- REGLA BONUS: Fila gris -->
-        <tr class="gray">
-            <td><a href="#">element,element,...</a></td>
-            <td>div, p</td>
-            <td>Selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
-        </tr>
-
-    </tbody>
-
-</table>
-
-
+        </tbody>
+        </table>
         </div>
     </div>
 
