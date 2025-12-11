@@ -76,36 +76,28 @@ img{
 /* TABLA BONUS */
 .tabla_bonus {
     width: 100%;
-    border-collapse: collapse;
-    border: 2px solid darkcyan;   /* borde color darkcyan */
-    border-radius: 6px;          /* Bordes redondeados */
-    overflow: hidden;            /* La tabla mantiene las esquinas redondeadas */
+    border: 2px solid darkcyan; /* borde color darkcyan */
+    border-radius: 6px; /* Bordes redondeados */
     font-size: 16px;
     background-color: white;
+    margin-bottom: 20px; /*margen debajo de la tabla*/
 }
 .tabla_bonus th {
     background-color: #ffffff;
-    font-weight: 900;
     padding: 12px;
     border-bottom: 2px solid #d0d3d6;
 }
 
 .tabla_bonus td {
     padding: 12px;
-    border-bottom: 1px solid #d0d3d6;
+    border-bottom: 2px solid #d0d3d6;
 }
-
-
 
 .color_gris_filas{
-    background-color: rgba(160, 160, 160, 0.83)  ;
+    background-color: rgba(160, 160, 160, 0.83);
 }
 
-.tabla_bonus a {
-    color: black;
-    font-weight: bold;
-    text-decoration: underline;
-}
+
 
 
 
